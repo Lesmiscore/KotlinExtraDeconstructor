@@ -5,7 +5,7 @@ _code(){
   echo
   seq 5 100 | while read r ; do echo "inline operator fun <T> List<T>.component$r(): T = this[$r]" ; done
   echo
-  seq 5 100 | while read r ; do echo "inline operator fun <T> List<T>.component$r(): T = this[$r]" ; done
+  seq 5 100 | while read r ; do echo "inline operator fun <T> Array<T>.component$r(): T = this[$r]" ; done
   echo
 }
 
